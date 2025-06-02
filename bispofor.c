@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 
 #define TAM 8
@@ -14,8 +13,8 @@ int main() {
     }
 
     // Posição inicial do bispo
-    int linha = 5;  // Ex: linha 5
-    int coluna = 2; // Ex: coluna 2
+    int linha = 7;  
+    int coluna = 2; 
     tabuleiro[linha][coluna] = 'B';
 
     // Movimento do bispo para cima e direita (↗)
